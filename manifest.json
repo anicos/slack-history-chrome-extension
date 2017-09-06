@@ -1,17 +1,13 @@
 {
-  "name": "Print this page",
-  "description": "Adds a print button to the browser.",
-  "version": "1.1",
+  "name": "Slack history",
+  "description": "Extension to keep Slack history",
+  "version": "0.0.0.1",
   "background": {
     "scripts": ["background.js"]
   },
   "permissions": [
     "tabs", "http://*/*", "https://*/*",  "downloads", "storage"
   ],
-  "browser_action": {
-      "default_title": "Print this page",
-      "default_popup": "popup.html"
-  },
   "web_accessible_resources": [
     "inject.html","historyPopup.html"
     ],
