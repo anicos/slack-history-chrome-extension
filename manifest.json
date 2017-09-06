@@ -1,7 +1,7 @@
 {
-  "name": "Slack history",
+  "name": "SlaHistory",
   "description": "Extension to keep Slack history",
-  "version": "0.0.0.1",
+  "version": "0.0.0.2",
   "background": {
     "scripts": ["background.js"]
   },
